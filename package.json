@@ -1,0 +1,23 @@
+{ "name" : "batteries"
+, "description" : "A general purpose library for Node"
+, "version" : "0.0.1"
+, "homepage" : "http://samhuri.net/node/batteries"
+, "author" : "Sami Samhuri <sami@samhuri.net>"
+, "repository" :
+  { "type" : "git"
+  , "url" : "http://github.com/samsonjs/batteries.git"
+  }
+, "bugs" :
+  { "mail" : "sami.samhuri+batteries@gmail.com"
+  , "web" : "http://github.com/samsonjs/batteries/issues"
+  }
+, "directories" : { "lib" : "./lib" }
+, "bin" : { "node-batteries" : "./repl.js" }
+, "main" : "./lib/index"
+, "engines" : { "node" : ">=0.2.0" }
+, "licenses" :
+  [ { "type" : "MIT"
+    , "url" : "http://github.com/samsonjs/batteries/raw/master/LICENSE"
+    }
+  ]
+}
