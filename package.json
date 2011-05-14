@@ -1,6 +1,6 @@
 { "name" : "batteries"
 , "description" : "A general purpose library for Node"
-, "version" : "0.1.1"
+, "version" : "0.2.0"
 , "homepage" : "http://samhuri.net/proj/batteries"
 , "author" : "Sami Samhuri <sami@samhuri.net>"
 , "repository" :
