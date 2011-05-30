@@ -1,6 +1,6 @@
 var fs = require('fs')
   , spawn = require('child_process').spawn
-  , LineEmitter = require('./lib/line-emitter').LineEmitter
+  , LineEmitter = require('./lib/line-emitter')
   ;
 
 
