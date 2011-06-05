@@ -1,33 +1,30 @@
-{
-  "name": "batteries",
-  "description": "A general purpose library for Node",
-  "version": "0.3.1",
-  "homepage": "http://samhuri.net/proj/batteries",
-  "author": "Sami Samhuri <sami@samhuri.net>",
-  "repository": {
+{ "name": "batteries"
+, "description": "A general purpose library for Node"
+, "version": "0.4.0"
+, "homepage": "http://samhuri.net/proj/batteries"
+, "author": "Sami Samhuri <sami@samhuri.net>"
+, "repository": {
     "type": "git",
     "url": "git://github.com/samsonjs/batteries.git"
-  },
-  "bugs": {
+  }
+, "bugs": {
     "email": "sami@samhuri.net",
-    "url": "http://github.com/samsonjs/batteries/issues"
-  },
-  "directories": {
+    "url": "https://github.com/samsonjs/batteries/issues"
+  }
+, "directories": {
     "lib": "./lib"
-  },
-  "bin": {
+  }
+, "bin": {
     "node-batteries": "./repl.js"
-  },
-  "main": "./lib/index",
-  "engines": {
-    "node": ">=0.4.0"
-  },
-  "licenses": [
+  }
+, "main": "./lib/index"
+, "engines": {
+    "node": "0.4.x"
+  }
+, "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/samsonjs/batteries/raw/master/LICENSE"
+      "url": "https://github.com/samsonjs/batteries/raw/master/LICENSE"
     }
-  ],
-  "dependencies": {},
-  "devDependencies": {}
+  ]
 }
