@@ -1,4 +1,14 @@
 #!/usr/bin/env node
 
-require('./lib/index').requireEverything().extendNative()
-require('repl').start()
+var batteries = require('./lib');
+
+batteries
+  .requireEverything()
+  .extendNative();
+
+try {
+  require('repl-edit').startRepl();
+}
+catch (e) {
+  require('repl').start();
+}
