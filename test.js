@@ -1,10 +1,10 @@
 var fs = require('fs')
   , spawn = require('child_process').spawn
-  , LineEmitter = require('./lib/line-emitter')
+  , LineEmitter = require('./lib/fs/line-emitter')
   ;
 
 
-require('./lib/index').extendNative();
+require('./lib').extendNative();
 
 
 // wc -l, for reference
