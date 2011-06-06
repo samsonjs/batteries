@@ -3,28 +3,20 @@
 , "version": "0.4.0"
 , "homepage": "http://samhuri.net/proj/batteries"
 , "author": "Sami Samhuri <sami@samhuri.net>"
-, "repository": {
-    "type": "git",
-    "url": "git://github.com/samsonjs/batteries.git"
+, "repository" :
+  { "type": "git"
+  , "url": "git://github.com/samsonjs/batteries.git"
   }
-, "bugs": {
-    "email": "sami@samhuri.net",
-    "url": "https://github.com/samsonjs/batteries/issues"
+, "bugs" :
+  { "email": "sami@samhuri.net"
+  , "url": "https://github.com/samsonjs/batteries/issues"
   }
-, "directories": {
-    "lib": "./lib"
-  }
-, "bin": {
-    "node-batteries": "./repl.js"
-  }
-, "main": "./lib/index"
-, "engines": {
-    "node": "0.4.x"
-  }
-, "licenses": [
-    {
-      "type": "MIT",
+, "bin" : { "node-batteries": "./repl.js" }
+, "main" : "./lib/index"
+, "engines" : { "node": "0.4.x" }
 , "dependencies" : { "strftime" : "0.4.x" }
+, "licenses" : [
+    { "type": "MIT",
       "url": "https://github.com/samsonjs/batteries/raw/master/LICENSE"
     }
   ]
