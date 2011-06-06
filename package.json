@@ -24,6 +24,7 @@
 , "licenses": [
     {
       "type": "MIT",
+, "dependencies" : { "strftime" : "0.4.x" }
       "url": "https://github.com/samsonjs/batteries/raw/master/LICENSE"
     }
   ]
