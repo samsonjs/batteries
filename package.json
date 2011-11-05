@@ -13,7 +13,7 @@
   }
 , "bin" : { "node-batteries": "./repl.js" }
 , "main" : "./lib/index"
-, "engines" : { "node": "0.4.x" }
+, "engines" : { "node": "0.4.x - 0.6.x" }
 , "dependencies" : { "strftime" : "0.4.x" }
 , "licenses" : [
     { "type": "MIT",
