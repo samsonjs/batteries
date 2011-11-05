@@ -1,14 +1,19 @@
 #!/usr/bin/env node
 
-var batteries = require('./lib');
-
-batteries
-  .requireEverything()
-  .extendNative();
+var vm = require('vm')
+  , repl
+  , InitCode = 'require("batteries").requireEverything(global).extendNative(global);'
+  ;
 
 try {
-  require('repl-edit').startRepl();
+  repl = require('repl-edit').startRepl();
 }
 catch (e) {
-  require('repl').start();
+  var replModule = require('repl');
+  replModule.start();
+  repl = replModule.repl;
 }
+
+repl.on('reset', function(context) {
+  vm.runInContext(InitCode, context, 'batteries')
+})
